@@ -1,0 +1,9 @@
+#!/bin/bash
+while true; do
+if [ $PPID -eq 1 ]; then
+	exit;
+fi
+	find ~/.wallpaper -type f \( -name '*.jpg' -o -name '*.png' \) -print0 |
+	shuf -n2 -z | xargs -0 feh --bg-max
+sleep 1m
+done

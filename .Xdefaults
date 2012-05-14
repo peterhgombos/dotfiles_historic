@@ -1,0 +1,36 @@
+Xft.dpi:  96
+Xft.hinting: 1
+Xft.hintstyle: hintmedium
+Xft.antialiasing: 1
+
+urxvt*geometry:		84x28
+urxvt*background:	black
+urxvt*foreground:	grey
+urxvt*visualBell:	false
+urxvt*scrollBar:	false
+urxvt*saveLines:	6000
+urxvt*borderLess:	false
+URxvt*termName: 	rxvt
+
+urxvt*shading:		30
+urxvt*fading:	    15 
+urxvt*inheritPixmap:	true
+urxvt*tintColor:	#666666
+!urxvt*font:		xft:Terminus:pixelsize=11:autohint=true:antialiasing=true
+!urxvt*boldFont:	xft:Terminus:width=8:pixelsize=11:autohint=true:antialiasing=true
+
+!urxvt*font:		xft:Monospace:pixelsize=13:autohint=true:antialiasing=true
+!urxvt*boldFont:	xft:Monospace:width=8:pixelsize=13:autohint=true:antialiasing=true
+
+xterm*geometry:		84x28
+xterm*background:	black
+xterm*foreground:	grey
+xterm*visualBell:	false
+xterm*scrollBar:	false
+xterm*saveLines:	6000
+xterm*borderLess:	false
+
+xterm*shading:		30
+xterm*fading:	    15 
+xterm*inheritPixmap:	true
+xterm*tintColor:	#666666
